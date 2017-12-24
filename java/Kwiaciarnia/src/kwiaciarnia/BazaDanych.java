@@ -33,7 +33,7 @@ public class BazaDanych{
         try{
             String host = "jdbc:mysql://localhost:3306/kwiaciarnia";
             String user = "root";
-            String passwd = "madafaka1";
+            String passwd = "haslo";
             con = DriverManager.getConnection( host, user, passwd );
             stat = con.createStatement();
         }
